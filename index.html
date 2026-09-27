@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="TasmaStore">
+  <title>TasmaStore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="TasmaStore, página inicial">
+      <span>TasmaStore</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="hero-label">TASMASTORE</span>
+        <h1 id="hero-title">Aplicativos Android , como batatas </h1>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-orbit hero-orbit-outer"></div>
+        <div class="hero-orbit hero-orbit-inner"></div>
+        <div class="hero-mark">
+          <span class="hero-symbol"></span>
+        </div>
+        <span class="hero-spark hero-spark-one">✳</span>
+        <span class="hero-spark hero-spark-two">✦</span>
+      </div>
+    </section>
+    <section class="apps-section" aria-labelledby="apps-title">
+      <div class="section-heading">
+        <h2 id="apps-title">Aplicativos</h2>
+      </div>
+      <div class="app-grid" id="app-grid" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>Nenhum aplicativo encontrado.</p>
+    </section>
+  </main>
+</body>
+</html>
